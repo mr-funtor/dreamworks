@@ -90,7 +90,8 @@ body{
 
 .new-videos-filter{
 	position:relative;
-	display:flex;
+	display:grid;
+	grid-template-columns:repeat(auto-fit, 290px);
 	flex-wrap:wrap;
 	justify-content:space-between;
 }
